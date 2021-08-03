@@ -1,35 +1,35 @@
-for local project build
+# for local project build
 
-install metamask 
+- install metamask  
 	https://metamask.io/
-run ganache
+- run ganache  
 https://www.trufflesuite.com/ganache
 	./ganache-2.5.4-linux-x86_64.AppImage
 
-install npm packages
+- install npm packages  
 	npm i	
 	
-run truffle
+- run truffle  
 	https://www.trufflesuite.com/
 	truffle migrate --network developer
  
-run npm
+ - run npm  
 	npm start
  
  open http://localhost:3000/
  
-for testnet project build
+# for testnet project build
 
-install metamask 
+- install metamask  
 	https://metamask.io/
 	
-edit truffle.js (change mnemonic phrase)
+- edit truffle.js (change mnemonic phrase)  
 	const mnemonicPhrase = "your phrase";
 
-install npm packages
+- install npm packages  
 	npm i	
-run truffle
+- run truffle  
  	truffle migrate --network testnet
 
-run npm
+- run npm  
  	npm start
