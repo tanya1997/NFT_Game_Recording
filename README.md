@@ -11,7 +11,7 @@ https://www.trufflesuite.com/ganache
 	
 - run truffle  
 	https://www.trufflesuite.com/
-	truffle migrate --network developer
+	truffle migrate --network development
  
  - run npm  
 	npm start
